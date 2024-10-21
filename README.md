@@ -25,12 +25,12 @@ Wikipedia API: To retrieve article data from Wikipedia based on user searches.
 **Project Structure:**
 
 wikipedia-clone/
-├── index.html        # Main HTML file
+├── index.html   # Main HTML file
 ├── styles/
-│   └── style.css     # Custom CSS styles
+│   └── style.css  # Custom CSS styles
 ├── scripts/
-│   └── app.js        # Main JavaScript file handling API calls and UI updates
-└── README.md         # Project description and details
+│   └── app.js    # Main JavaScript file handling API calls and UI updates
+└── README.md    # Project description and details
 
 
 **How to Run the Project**
@@ -40,6 +40,7 @@ git clone https://github.com/your-username/wikipedia-clone.git
 
 2. Open the project directory:
 cd wikipedia-clone
+
 
 3. Open index.html in your browser to view the Wikipedia Clone.
 
@@ -57,7 +58,8 @@ fetch(`https://en.wikipedia.org/w/api.php?action=query&list=search&format=json&o
   });
 
 
-Contributing
+
+Contributing: 
 If you would like to contribute to this project, feel free to fork the repository and submit a pull request.
 
 1.Fork the repository.
@@ -68,6 +70,7 @@ If you would like to contribute to this project, feel free to fork the repositor
 
 
 **Acknowledgements**
+
 =>Wikipedia API Documentation
 =>MDN Web Docs
 
